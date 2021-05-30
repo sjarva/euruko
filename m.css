@@ -1,0 +1,126 @@
+.letter.double-letter.m {
+    transform: rotate(180deg);
+}
+
+.m .violet {
+    top: 0;
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 1.8);
+    border-radius: 50px;
+}
+
+.m .orange {
+    top: 0;
+    left: calc(var(--total) * 4);
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 4);
+    border-radius: 50px;
+}
+
+.m .pink {
+    position: relative;
+    border: none;
+}
+
+.m .pink span {
+    border-color: var(--pink-color);
+}
+
+.m .pink .small-one,
+.m .pink .small-two {
+    position: absolute;
+    top: calc(var(--font-stroke) * 0.8);
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 2.8);
+    border-style: solid;
+    border-width: var(border-width);
+}
+
+.m .pink .small-one {
+    border-bottom: none;
+    border-top: none;
+}
+
+.m .pink .small-two {
+    border-radius: 50px 50px 0 0;
+    border-bottom: none;
+    left: calc(var(--total) * 2);
+    top: calc(var(--font-stroke) * 3);
+    height: calc(var(--font-stroke) * 0.6);
+}
+
+.m .pink .big {
+    position: absolute;
+    top: calc(var(--font-stroke) * 3.6);
+    width: calc(var(--total) * 2 + var(--font-stroke));
+    height: calc(var(--total) * 1.5);
+    border-style: solid;
+    border-width: var(border-width);
+    border-radius: 0 0 50px 50px;
+    border-top: none;
+}
+
+.m .pink .middle {
+    position: absolute;
+    top: calc(var(--font-stroke) * 3.6);
+    left: var(--total);
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 0.6);
+    border-style: solid;
+    border-width: var(border-width);
+    border-radius: 0 0 50px 50px;
+    border-top: none;
+}
+
+.m .blue {
+    top: 0;
+    left: calc(var(--total) * 2);
+    border: none;
+}
+
+.m .blue span {
+    border-color: var(--blue-color);
+}
+
+.m .blue .small-one,
+.m .blue .small-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 3.8);
+    border-style: solid;
+    border-width: var(border-width);
+    border-radius: 50px 50px 0 0;
+    border-bottom: none;
+}
+.m .blue .small-two {
+    left: calc(var(--total) * 2);
+    top: calc(var(--font-stroke) * 2.8);
+    height: calc(var(--font-stroke) * 0.6);
+}
+
+.m .blue .big {
+    position: absolute;
+    top: calc(var(--font-stroke) * 3.6);
+    width: calc(var(--total) * 2 + var(--font-stroke));
+    height: calc(var(--total) * 1.5);
+    border-style: solid;
+    border-width: var(border-width);
+    border-radius: 0 0 50px 50px;
+    border-top: none;
+}
+
+.m .blue .middle {
+    position: absolute;
+    top: calc(var(--font-stroke) * 3.6);
+    left: var(--total);
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 0.6);
+    border-style: solid;
+    border-width: var(border-width);
+    border-radius: 0 0 50px 50px;
+    border-top: none;
+}

@@ -1,0 +1,31 @@
+.l .orange {
+    top: 0;
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 1.6);
+    border-radius: 50px;
+}
+
+.l .blue {
+    top: calc(var(--font-stroke) * 3);
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 2);
+    border-radius: 50px;
+}
+
+.l .pink {
+    top: calc(var(--font-stroke) * 4);
+    left: 0;
+    width: calc(var(--font-stroke) * 3);
+    height: var(--font-stroke);
+    border-radius: 50px;
+}
+
+.l .violet {
+    top: 0;
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 5);
+    border-radius: 50px;
+}
