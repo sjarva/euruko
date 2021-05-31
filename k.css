@@ -33,7 +33,7 @@
     height: calc(var(--font-stroke) * 1.8);
     border-radius: 0 0 50px 50px;
     border-top: none;
-    transform: rotate(-45deg); /**/
+    transform: rotate(-45deg);
 }
 
 .k .orange .small-two {
