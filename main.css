@@ -13,6 +13,7 @@
     background-color: var(--background-violet);
     width: 1200px;
     height: 800px;
+    padding: 200px;
 }
 
 .column {
@@ -26,7 +27,7 @@
 
 .letter {
     position: relative;
-    min-width: calc(var(--font-stroke) * 4);
+    min-width: calc(var(--font-stroke) * 3.8);
     min-height: calc(var(--font-stroke) * 5.5);
     margin: calc(var(--font-stroke) * 0.5);
 }

@@ -1,0 +1,77 @@
+.k .pink {
+    top: 0;
+    left: 0;
+    width: calc(var(--font-stroke));
+    height: calc(var(--total) * 1.6);
+    border-radius: 50px;
+}
+
+.k .blue {
+    top: 0;
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 5);
+    border-radius: 50px;
+}
+
+.k .orange {
+    position: relative;
+    border: none;
+}
+
+.k .orange span {
+    border-color: var(--orange-color);
+    border-style: solid;
+    border-width: var(--border-width);
+    position: absolute;
+}
+
+.k .orange .small-one {
+    bottom: calc(var(--font-stroke) * -5.3);
+    left: calc(var(--total) * 2.05);
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 1.8);
+    border-radius: 0 0 50px 50px;
+    border-top: none;
+    transform: rotate(-45deg); /**/
+}
+
+.k .orange .small-two {
+    top: calc(var(--font-stroke) * -0.1);
+    left: calc(var(--total) * 2.05);
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 1.8);
+    border-radius: 50px 50px 0 0;
+    border-bottom: none;
+    transform: rotate(45deg);
+}
+
+.k .orange .big {
+    left: calc(var(--total) * 0.8);
+    top: calc(var(--total) * 1);
+    width: calc(2.8 * var(--font-stroke));
+    height: calc(2.8 * var(--font-stroke));
+    border-radius: 50px 0 0 0;
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(-45deg);
+}
+
+.k .orange .middle {
+    top: calc(var(--total) * 1.6);
+    left: calc(var(--total) * 1.95);
+    width: calc(1.5 * var(--font-stroke));
+    height: calc(1.5 * var(--font-stroke));
+    border-radius: 25px 0 0 0;
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(-45deg);
+}
+
+.k .violet {
+    top: calc(var(--total) * 2.9);
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--total) * 1.6);
+    border-radius: 50px;
+}

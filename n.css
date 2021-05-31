@@ -1,0 +1,33 @@
+.n .pink {
+    top: calc(var(--total) * 1.75);
+    left: calc(var(--total) * -1);
+    width: calc(var(--total) * 5.1);
+    height: var(--total);
+    border-radius: 50px;
+    transform: rotate(60deg);
+    /*background-color: var(--background-violet); /**/
+}
+
+.n .blue {
+    top: 0;
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 5);
+    border-radius: 50px;
+}
+
+.n .orange {
+    top: 0;
+    left: calc(var(--total) * 2.2);
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 5);
+    border-radius: 50px;
+}
+
+.n .violet {
+    top: 0;
+    left: calc(var(--total) * 2.2);
+    width: var(--font-stroke);
+    height: calc(var(--font-stroke) * 1.2);
+    border-radius: 50px;
+}
