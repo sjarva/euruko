@@ -1,3 +1,24 @@
+/* HTML for W is
+
+ <div class="letter double-letter w">
+    <div class="violet"></div>
+    <div class="orange">
+        <span class="big"></span>
+        <span class="middle"></span>
+        <span class="small-one"></span>
+        <span class="small-two"></span>
+    </div>
+    <div class="blue">
+        <span class="big"></span>
+        <span class="middle"></span>
+        <span class="small-one"></span>
+        <span class="small-two"></span>
+    </div>
+    <div class="pink"></div>
+</div>
+
+*/
+
 .w .pink {
     top: 0;
     left: 0;

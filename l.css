@@ -1,3 +1,14 @@
+/* HTML for letter L is
+
+ <div class="letter l">
+    <div class="pink"></div>
+    <div class="violet"></div>
+    <div class="orange"></div>
+    <div class="blue"></div>
+</div>
+
+*/
+
 .l .orange {
     top: 0;
     left: 0;
