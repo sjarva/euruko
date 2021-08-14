@@ -42,10 +42,6 @@
     border: none;
 }
 
-.m .pink span {
-    border-color: var(--pink-color);
-}
-
 .m .pink .small-one,
 .m .pink .small-two {
     position: absolute;
@@ -91,10 +87,6 @@
     top: 0;
     left: calc(var(--total) * 2);
     border: none;
-}
-
-.m .blue span {
-    border-color: var(--blue-color);
 }
 
 .m .blue .small-one,

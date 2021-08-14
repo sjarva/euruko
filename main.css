@@ -58,18 +58,22 @@
     border-width: var(--border-width);
 }
 
-.orange {
+.orange,
+.orange span {
     border-color: var(--orange-color);
 }
 
-.blue {
+.blue,
+.blue span {
     border-color: var(--blue-color);
 }
 
-.pink {
+.pink,
+.pink span {
     border-color: var(--pink-color);
 }
 
-.violet {
+.violet,
+.violet span {
     border-color: var(--violet-color);
 }

@@ -38,10 +38,6 @@
     border: none;
 }
 
-.w .orange span {
-    border-color: var(--orange-color);
-}
-
 .w .orange .small-one,
 .w .orange .small-two {
     position: absolute;
@@ -90,7 +86,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.8);
-    border-color: var(--blue-color);
     border-radius: 50px 50px 0 0;
     border-bottom: none;
 }
@@ -105,7 +100,6 @@
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
-    border-color: var(--blue-color);
     border-radius: 0 0 50px 50px;
     border-top: none;
 }
@@ -116,7 +110,6 @@
     left: var(--total);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 0.6);
-    border-color: var(--blue-color);
     border-radius: 0 0 50px 50px;
     border-top: none;
 }

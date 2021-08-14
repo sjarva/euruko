@@ -40,7 +40,6 @@
 
 .e .orange span {
     position: absolute;
-    border-color: var(--orange-color);
 }
 
 .e .orange .middle {

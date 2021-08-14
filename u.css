@@ -24,10 +24,6 @@
     border: none;
 }
 
-.u .pink span {
-    border-color: var(--pink-color);
-}
-
 .u .pink .small-one,
 .u .pink .small-two {
     position: absolute;

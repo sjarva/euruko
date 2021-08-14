@@ -26,10 +26,6 @@
     transform: rotate(-90deg);
 }
 
-.r .orange span {
-    border-color: var(--orange-color);
-}
-
 .r .orange .small-one,
 .r .orange .small-two {
     position: absolute;
