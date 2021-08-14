@@ -4,16 +4,18 @@
     --orange-color: rgb(243, 147, 26);
     --violet-color: #d7aaff;
     --background-violet: rgb(80, 52, 105);
-    --border-width: 3px;
-    --font-stroke: 25px;
+    --border-width: 0.1875rem;
+    --font-stroke: 1.5625rem;
+    --border-curve: calc(2 * var(--font-stroke));
     --total: calc(var(--font-stroke) + var(--border-width));
+    --curve-for-e: 1.25rem;
 }
 
 .root {
     background-color: var(--background-violet);
-    width: 1200px;
-    height: 800px;
-    padding: 200px;
+    width: 75rem;
+    height: 50rem;
+    padding: 12.5rem;
 }
 
 .column {
@@ -37,7 +39,7 @@
 }
 
 .letter div {
-    border-radius: 50px;
+    border-radius: var(--border-curve);
 }
 
 .letter .multiple-parts {

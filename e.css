@@ -16,7 +16,7 @@
     top: calc(var(--font-stroke) * 2.3);
     left: calc(var(--font-stroke) * 0.7);
     width: calc(var(--font-stroke) * 1.6);
-    height: 16px;
+    height: 1rem;
 }
 
 .e .orange .middle {
@@ -24,7 +24,7 @@
     left: var(--font-stroke);
     height: calc(var(--total) * 2.5 + var(--border-width));
     width: calc(var(--total) * 0.7);
-    border-radius: 20px 0 0 20px;
+    border-radius: var(--curve-for-e) 0 0 var(--curve-for-e);
     border-right: none;
 }
 
@@ -33,12 +33,12 @@
     left: 0;
     height: calc(var(--total) * 4.5 + var(--border-width));
     width: calc(var(--total) * 1.6);
-    border-radius: 40px 0 0 40px;
+    border-radius: calc(2 * var(--curve-for-e)) 0 0 calc(2 * var(--curve-for-e));
     border-right: none;
 }
 
 .e .orange .small-one {
-    border-radius: 0 50px 50px 0;
+    border-radius: 0 var(--border-curve) var(--border-curve) 0;
     top: 0;
     left: calc(var(--total) * 1.7);
     height: var(--font-stroke);
@@ -47,7 +47,7 @@
 }
 
 .e .orange .small-two {
-    border-radius: 0 50px 50px 0;
+    border-radius: 0 var(--border-curve) var(--border-curve) 0;
     top: calc(var(--total) * 3.5 + var(--border-width) * 2);
     left: calc(var(--total) * 1.7);
     height: var(--font-stroke);

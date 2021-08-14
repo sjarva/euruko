@@ -30,7 +30,7 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 3.6);
-    border-radius: 50px 50px 0 0;
+    border-radius: var(--border-curve) var(--border-curve) 0 0;
     border-bottom: none;
 }
 
@@ -44,7 +44,7 @@
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 var(--border-curve) var(--border-curve);
     border-top: none;
 }
 
@@ -53,6 +53,6 @@
     left: var(--total);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 0.6);
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 var(--border-curve) var(--border-curve);
     border-top: none;
 }

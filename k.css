@@ -17,7 +17,7 @@
     left: calc(var(--total) * 2.05);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.8);
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 var(--border-curve) var(--border-curve);
     border-top: none;
     transform: rotate(-45deg);
 }
@@ -27,7 +27,7 @@
     left: calc(var(--total) * 2.05);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.8);
-    border-radius: 50px 50px 0 0;
+    border-radius: var(--border-curve) var(--border-curve) 0 0;
     border-bottom: none;
     transform: rotate(45deg);
 }
@@ -37,7 +37,7 @@
     top: calc(var(--total) * 1);
     width: calc(2.8 * var(--font-stroke));
     height: calc(2.8 * var(--font-stroke));
-    border-radius: 50px 0 0 0;
+    border-radius: var(--border-curve) 0 0 0;
     border-right: none;
     border-bottom: none;
     transform: rotate(-45deg);
@@ -48,7 +48,7 @@
     left: calc(var(--total) * 1.95);
     width: calc(1.5 * var(--font-stroke));
     height: calc(1.5 * var(--font-stroke));
-    border-radius: 25px 0 0 0;
+    border-radius: calc(var(--border-curve) / 2) 0 0 0;
     border-right: none;
     border-bottom: none;
     transform: rotate(-45deg);
