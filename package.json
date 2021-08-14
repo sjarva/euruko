@@ -15,6 +15,7 @@
     "license": "ISC",
     "devDependencies": {
         "stylelint": "^13.13.1",
+        "stylelint-a11y": "^1.2.3",
         "stylelint-config-standard": "^22.0.0"
     }
 }
