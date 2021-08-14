@@ -4,12 +4,14 @@
     width: calc(var(--font-stroke) * 1.9);
     height: var(--font-stroke);
 }
+
 .e .blue {
     top: calc(var(--font-stroke) * 4.2);
     left: calc(var(--font-stroke) * 1.4);
     width: calc(var(--font-stroke) * 1.9);
     height: var(--font-stroke);
 }
+
 .e .pink {
     top: calc(var(--font-stroke) * 2.3);
     left: calc(var(--font-stroke) * 0.7);

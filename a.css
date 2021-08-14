@@ -33,6 +33,7 @@
     border-radius: 50px 50px 0 0;
     border-bottom: none;
 }
+
 .a .blue .small-two {
     left: calc(var(--total) * 2);
     top: calc(var(--font-stroke) * 2.8);

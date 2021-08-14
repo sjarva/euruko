@@ -1,15 +1,20 @@
 {
-  "name": "euruko2021",
-  "version": "0.0.1",
-  "description": "CSS animations inspired by the EuRuKo2021 graphics",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "keywords": [
-    "css",
-    "animations"
-  ],
-  "author": "Senja Jarva",
-  "license": "ISC"
+    "name": "euruko2021",
+    "version": "0.0.1",
+    "description": "CSS animations inspired by the EuRuKo2021 graphics",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "lint": "stylelint \"**/*.{css, scss}\""
+    },
+    "keywords": [
+        "css",
+        "animations"
+    ],
+    "author": "Senja Jarva",
+    "license": "ISC",
+    "devDependencies": {
+        "stylelint": "^13.13.1",
+        "stylelint-config-standard": "^22.0.0"
+    }
 }

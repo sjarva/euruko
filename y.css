@@ -19,7 +19,7 @@
     left: calc(var(--total) * -1);
     width: calc(var(--total) * 5.1);
     height: var(--total);
-    transform: rotate(-60deg); /**/
+    transform: rotate(-60deg);
 }
 
 .y .blue {

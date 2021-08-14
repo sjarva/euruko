@@ -33,6 +33,7 @@
     border-bottom: none;
     border-top: none;
 }
+
 .r .orange .small-two {
     left: calc(var(--total) * 0.5 + var(--border-width));
     top: calc(var(--total) * -1.8);
