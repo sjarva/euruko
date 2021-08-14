@@ -33,11 +33,6 @@
     height: 16px;
 }
 
-.e .orange {
-    position: relative;
-    border: none;
-}
-
 .e .orange span {
     position: absolute;
 }

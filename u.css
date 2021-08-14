@@ -19,11 +19,6 @@
     height: calc(var(--font-stroke) * 1.6);
 }
 
-.u .pink {
-    position: relative;
-    border: none;
-}
-
 .u .pink .small-one,
 .u .pink .small-two {
     position: absolute;

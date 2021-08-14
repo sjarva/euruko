@@ -21,8 +21,6 @@
 }
 
 .r .orange {
-    position: relative;
-    border: none;
     transform: rotate(-90deg);
 }
 

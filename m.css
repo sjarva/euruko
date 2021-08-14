@@ -1,14 +1,14 @@
 /* HTML for letter M is
 
 <div class="letter double-letter m">
-    <div class="blue">
+    <div class="blue multiple-parts">
         <span class="big"></span>
         <span class="middle"></span>
         <span class="small-one"></span>
         <span class="small-two"></span>
     </div>
     <div class="orange"></div>
-    <div class="pink">
+    <div class="pink multiple-parts">
         <span class="big"></span>
         <span class="middle"></span>
         <span class="small-one"></span>
@@ -35,11 +35,6 @@
     left: calc(var(--total) * 4);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 4);
-}
-
-.m .pink {
-    position: relative;
-    border: none;
 }
 
 .m .pink .small-one,

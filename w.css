@@ -2,7 +2,7 @@
 
  <div class="letter double-letter w">
     <div class="violet"></div>
-    <div class="orange">
+    <div class="orange multiple-parts">
         <span class="big"></span>
         <span class="middle"></span>
         <span class="small-one"></span>
@@ -31,11 +31,6 @@
     left: calc(var(--total) * 4);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 4);
-}
-
-.w .orange {
-    position: relative;
-    border: none;
 }
 
 .w .orange .small-one,

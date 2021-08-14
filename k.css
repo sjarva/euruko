@@ -12,11 +12,6 @@
     height: calc(var(--font-stroke) * 5);
 }
 
-.k .orange {
-    position: relative;
-    border: none;
-}
-
 .k .orange span {
     position: absolute;
 }
