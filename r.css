@@ -45,7 +45,7 @@
 
 .r .orange .small-one,
 .r .orange .small-two {
-    top: calc(var(--total) * -0.7);
+    top: calc(var(--total) * -0.6);
     left: calc(var(--total) * -1.5 + var(--border-width));
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 0.6);
