@@ -3,6 +3,8 @@
     left: calc(var(--font-stroke) * 1.4);
     width: calc(var(--font-stroke) * 1.9);
     height: var(--font-stroke);
+    transition-property: transform;
+    transition-duration: 2s;
 }
 
 .e .blue {
@@ -10,6 +12,15 @@
     left: calc(var(--font-stroke) * 1.4);
     width: calc(var(--font-stroke) * 1.9);
     height: var(--font-stroke);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.e:hover .violet,
+.e:focus .violet,
+.e:hover .blue,
+.e:focus .blue {
+    transform: translateX(calc(1 * var(--total)));
 }
 
 .e .pink {
@@ -17,6 +28,13 @@
     left: calc(var(--font-stroke) * 0.7);
     width: calc(var(--font-stroke) * 1.6);
     height: 1rem;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.e:hover .pink,
+.e:focus .pink {
+    transform: translateX(calc(-1 * var(--total)));
 }
 
 .e .orange .middle {
