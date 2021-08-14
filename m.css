@@ -78,7 +78,6 @@
 .m .blue {
     top: 0;
     left: calc(var(--total) * 2);
-    border: none;
 }
 
 .m .blue .small-one,

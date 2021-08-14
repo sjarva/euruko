@@ -26,12 +26,6 @@
     border-right: none;
 }
 
-.a .blue {
-    top: 0;
-    left: 0;
-    border: none;
-}
-
 .a .blue .small-one,
 .a .blue .small-two {
     top: 0;
