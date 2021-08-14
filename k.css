@@ -3,6 +3,24 @@
     left: 0;
     width: calc(var(--font-stroke));
     height: calc(var(--total) * 1.6);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.k .violet {
+    top: calc(var(--total) * 2.9);
+    left: 0;
+    width: var(--font-stroke);
+    height: calc(var(--total) * 1.6);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.k:hover .pink,
+.k:focus .pink,
+.k:hover .violet,
+.k:focus .violet {
+    transform: translateX(calc(var(--total) + 2 * var(--border-width)));
 }
 
 .k .blue {
@@ -10,6 +28,16 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
+}
+
+.k .orange {
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.k:hover .orange,
+.k:focus .orange {
+    transform: translateX(calc(1.5 * var(--total)));
 }
 
 .k .orange .small-one {
@@ -52,11 +80,4 @@
     border-right: none;
     border-bottom: none;
     transform: rotate(-45deg);
-}
-
-.k .violet {
-    top: calc(var(--total) * 2.9);
-    left: 0;
-    width: var(--font-stroke);
-    height: calc(var(--total) * 1.6);
 }
