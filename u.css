@@ -3,6 +3,13 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 4);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.u:hover .orange,
+.u:focus .orange {
+    transform: translateY(calc(-1 * var(--total)));
 }
 
 .u .blue {
@@ -10,6 +17,13 @@
     left: calc(var(--total) * 2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 4);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.u:hover .blue,
+.u:focus .blue {
+    transform: translateY(calc(1 * var(--total)));
 }
 
 .u .violet {
