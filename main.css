@@ -61,6 +61,7 @@
 .violet span {
     border-style: solid;
     border-width: var(--border-width);
+    position: absolute;
 }
 
 .orange,

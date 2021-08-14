@@ -17,10 +17,6 @@
     height: 16px;
 }
 
-.e .orange span {
-    position: absolute;
-}
-
 .e .orange .middle {
     top: calc(var(--total));
     left: var(--font-stroke);

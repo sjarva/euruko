@@ -26,7 +26,6 @@
 
 .r .orange .small-one,
 .r .orange .small-two {
-    position: absolute;
     top: calc(var(--total) * -0.7);
     left: calc(var(--total) * -1.5 + var(--border-width));
     width: var(--font-stroke);
@@ -46,7 +45,6 @@
 }
 
 .r .orange .big {
-    position: absolute;
     left: calc(var(--total) * -1.5 + var(--border-width));
     top: calc(var(--total) * -0.2);
     width: calc(var(--total) * 2 + var(--font-stroke));
@@ -56,7 +54,6 @@
 }
 
 .r .orange .middle {
-    position: absolute;
     top: calc(var(--total) * -0.2);
     left: calc(var(--total) * -0.5 + var(--border-width));
     width: var(--font-stroke);

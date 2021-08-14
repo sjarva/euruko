@@ -34,7 +34,6 @@
 
 .a .blue .small-one,
 .a .blue .small-two {
-    position: absolute;
     top: 0;
     left: 0;
     width: var(--font-stroke);
@@ -49,7 +48,6 @@
 }
 
 .a .blue .big {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
@@ -58,7 +56,6 @@
 }
 
 .a .blue .middle {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     left: var(--total);
     width: var(--font-stroke);

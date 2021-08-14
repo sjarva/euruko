@@ -21,7 +21,6 @@
 
 .u .pink .small-one,
 .u .pink .small-two {
-    position: absolute;
     top: calc(var(--font-stroke) * 3);
     left: 0;
     width: var(--font-stroke);
@@ -34,7 +33,6 @@
 }
 
 .u .pink .big {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
@@ -43,7 +41,6 @@
 }
 
 .u .pink .middle {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     left: var(--total);
     width: var(--font-stroke);

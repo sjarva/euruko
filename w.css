@@ -35,7 +35,6 @@
 
 .w .orange .small-one,
 .w .orange .small-two {
-    position: absolute;
     top: calc(var(--font-stroke) * 0.8);
     left: 0;
     width: var(--font-stroke);
@@ -50,7 +49,6 @@
 }
 
 .w .orange .big {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
@@ -59,7 +57,6 @@
 }
 
 .w .orange .middle {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     left: var(--total);
     width: var(--font-stroke);
@@ -76,7 +73,6 @@
 
 .w .blue .small-one,
 .w .blue .small-two {
-    position: absolute;
     top: calc(var(--font-stroke) * 1.8);
     left: 0;
     width: var(--font-stroke);
@@ -91,7 +87,6 @@
 }
 
 .w .blue .big {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
@@ -100,7 +95,6 @@
 }
 
 .w .blue .middle {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     left: var(--total);
     width: var(--font-stroke);

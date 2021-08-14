@@ -12,10 +12,6 @@
     height: calc(var(--font-stroke) * 5);
 }
 
-.k .orange span {
-    position: absolute;
-}
-
 .k .orange .small-one {
     bottom: calc(var(--font-stroke) * -5.3);
     left: calc(var(--total) * 2.05);

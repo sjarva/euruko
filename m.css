@@ -39,7 +39,6 @@
 
 .m .pink .small-one,
 .m .pink .small-two {
-    position: absolute;
     top: calc(var(--font-stroke) * 0.8);
     left: 0;
     width: var(--font-stroke);
@@ -60,7 +59,6 @@
 }
 
 .m .pink .big {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
@@ -69,7 +67,6 @@
 }
 
 .m .pink .middle {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     left: var(--total);
     width: var(--font-stroke);
@@ -86,7 +83,6 @@
 
 .m .blue .small-one,
 .m .blue .small-two {
-    position: absolute;
     top: 0;
     left: 0;
     width: var(--font-stroke);
@@ -101,7 +97,6 @@
 }
 
 .m .blue .big {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
@@ -110,7 +105,6 @@
 }
 
 .m .blue .middle {
-    position: absolute;
     top: calc(var(--font-stroke) * 3.6);
     left: var(--total);
     width: var(--font-stroke);
