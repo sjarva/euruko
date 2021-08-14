@@ -3,7 +3,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 4);
-    border-radius: 50px;
 }
 
 .u .blue {
@@ -11,7 +10,6 @@
     left: calc(var(--total) * 2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 4);
-    border-radius: 50px;
 }
 
 .u .violet {
@@ -19,7 +17,6 @@
     left: calc(var(--total) * 2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.6);
-    border-radius: 50px;
 }
 
 .u .pink {
