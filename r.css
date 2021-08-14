@@ -3,6 +3,8 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
+    transition-property: transform;
+    transition-duration: 2s;
 }
 
 .r .violet {
@@ -10,6 +12,15 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.5);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.r:hover .blue,
+.r:focus .blue,
+.r:hover .violet,
+.r:focus .violet {
+    transform: translateY(calc(1.5 * var(--total)));
 }
 
 .r .pink {
@@ -18,6 +29,14 @@
     width: var(--total);
     height: calc(var(--total) * 3);
     transform: rotate(135deg);
+    transition-property: top, left;
+    transition-duration: 2s;
+}
+
+.r:hover .pink,
+.r:focus .pink {
+    top: calc(var(--total) * 2.8);
+    left: calc(var(--total) * 2.45);
 }
 
 .r .orange {
