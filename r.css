@@ -3,7 +3,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
-    border-radius: 50px;
 }
 
 .r .violet {
@@ -11,7 +10,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.5);
-    border-radius: 50px;
 }
 
 .r .pink {
@@ -19,7 +17,6 @@
     left: calc(var(--total) * 1.45);
     width: var(--total);
     height: calc(var(--total) * 3);
-    border-radius: 50px;
     transform: rotate(135deg);
 }
 

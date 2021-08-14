@@ -3,7 +3,6 @@
     left: calc(var(--total) * -1);
     width: calc(var(--total) * 5.1);
     height: var(--total);
-    border-radius: 50px;
     transform: rotate(58deg);
     /*background-color: var(--background-violet); /**/
 }
@@ -13,7 +12,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
-    border-radius: 50px;
 }
 
 .n .orange {
@@ -21,7 +19,6 @@
     left: calc(var(--total) * 2.2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
-    border-radius: 50px;
 }
 
 .n .violet {
@@ -29,5 +26,4 @@
     left: calc(var(--total) * 2.2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.2);
-    border-radius: 50px;
 }

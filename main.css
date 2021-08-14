@@ -36,6 +36,10 @@
     min-width: calc(var(--total) * 5 + var(--border-width));
 }
 
+.letter div {
+    border-radius: 50px;
+}
+
 .orange,
 .blue,
 .pink,

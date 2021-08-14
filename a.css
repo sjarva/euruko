@@ -8,7 +8,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.4);
-    border-radius: 50px;
 }
 
 .a .orange {
@@ -16,7 +15,6 @@
     left: calc(var(--total) * 2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 4);
-    border-radius: 50px;
 }
 
 .a .pink {

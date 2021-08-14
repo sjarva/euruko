@@ -3,7 +3,6 @@
     left: calc(var(--total) * -1);
     width: calc(var(--total) * 3.3);
     height: var(--total);
-    border-radius: 50px;
     transform: rotate(60deg);
 }
 
@@ -12,7 +11,6 @@
     left: calc(var(--total) * 0.35);
     width: calc(var(--total) * 1.5);
     height: var(--total);
-    border-radius: 50px;
     transform: rotate(60deg);
     background-color: var(--background-violet);
 }
@@ -22,7 +20,6 @@
     left: calc(var(--total) * -1);
     width: calc(var(--total) * 5.1);
     height: var(--total);
-    border-radius: 50px;
     transform: rotate(-60deg); /**/
 }
 
@@ -31,6 +28,5 @@
     left: calc(var(--total) * 2.01);
     width: calc(var(--total) * 1.1);
     height: var(--total);
-    border-radius: 50px;
     transform: rotate(-60deg);
 }

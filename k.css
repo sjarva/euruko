@@ -3,7 +3,6 @@
     left: 0;
     width: calc(var(--font-stroke));
     height: calc(var(--total) * 1.6);
-    border-radius: 50px;
 }
 
 .k .blue {
@@ -11,7 +10,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
-    border-radius: 50px;
 }
 
 .k .orange {
@@ -73,5 +71,4 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--total) * 1.6);
-    border-radius: 50px;
 }

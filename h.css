@@ -3,7 +3,6 @@
     left: 0;
     width: calc(var(--total) * 3.1);
     height: var(--font-stroke);
-    border-radius: 50px;
 }
 
 .h .blue {
@@ -11,7 +10,6 @@
     left: 0;
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
-    border-radius: 50px;
 }
 
 .h .pink {
@@ -19,7 +17,6 @@
     left: calc(var(--total) * 2.2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 5);
-    border-radius: 50px;
 }
 
 .h .violet {
@@ -27,5 +24,4 @@
     left: calc(var(--total) * 2.2);
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.2);
-    border-radius: 50px;
 }
