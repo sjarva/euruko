@@ -83,3 +83,7 @@
 .violet span {
     border-color: var(--violet-color);
 }
+
+.fill {
+    background-color: var(--background-violet);
+}

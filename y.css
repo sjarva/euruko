@@ -12,7 +12,6 @@
     width: calc(var(--total) * 1.5);
     height: var(--total);
     transform: rotate(60deg);
-    background-color: var(--background-violet);
 }
 
 .y .orange {

@@ -18,12 +18,10 @@
 }
 
 .a .pink {
-    top: calc(var(--font-stroke) * 2);
+    top: calc(var(--font-stroke) * 2.2);
     left: 0;
-    width: calc(var(--total) * 2);
+    width: calc(var(--total) * 2 + var(--font-stroke));
     height: var(--font-stroke);
-    border-radius: 50px 0 0 50px;
-    border-right: none;
 }
 
 .a .blue .small-one,
@@ -31,7 +29,7 @@
     top: 0;
     left: 0;
     width: var(--font-stroke);
-    height: calc(var(--font-stroke) * 3.8);
+    height: calc(var(--font-stroke) * 3.6);
     border-radius: 50px 50px 0 0;
     border-bottom: none;
 }
