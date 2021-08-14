@@ -41,8 +41,6 @@
 .e .orange span {
     position: absolute;
     border-color: var(--orange-color);
-    border-style: solid;
-    border-width: var(--border-width);
 }
 
 .e .orange .middle {

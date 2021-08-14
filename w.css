@@ -40,8 +40,6 @@
 
 .w .orange span {
     border-color: var(--orange-color);
-    border-style: solid;
-    border-width: var(border-width);
 }
 
 .w .orange .small-one,
@@ -93,8 +91,6 @@
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 1.8);
     border-color: var(--blue-color);
-    border-style: solid;
-    border-width: var(border-width);
     border-radius: 50px 50px 0 0;
     border-bottom: none;
 }
@@ -110,8 +106,6 @@
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
     border-color: var(--blue-color);
-    border-style: solid;
-    border-width: var(border-width);
     border-radius: 0 0 50px 50px;
     border-top: none;
 }
@@ -123,8 +117,6 @@
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 0.6);
     border-color: var(--blue-color);
-    border-style: solid;
-    border-width: var(border-width);
     border-radius: 0 0 50px 50px;
     border-top: none;
 }

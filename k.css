@@ -19,8 +19,6 @@
 
 .k .orange span {
     border-color: var(--orange-color);
-    border-style: solid;
-    border-width: var(--border-width);
     position: absolute;
 }
 

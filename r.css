@@ -37,8 +37,6 @@
     left: calc(var(--total) * -1.5 + var(--border-width));
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 0.6);
-    border-style: solid;
-    border-width: var(--border-width);
     border-bottom: none;
     border-top: none;
 }
@@ -47,7 +45,9 @@
     top: calc(var(--total) * -1.8);
     height: calc(var(--font-stroke) * 1.8);
     border-radius: 50px 50px 0 0;
-    border-top: var(--border-width) solid var(--orange-color);
+    border-width: var(--border-width);
+    border-style: solid;
+    border-color: var(--orange-color);
     border-bottom: none;
 }
 
@@ -57,8 +57,6 @@
     top: calc(var(--total) * -0.2);
     width: calc(var(--total) * 2 + var(--font-stroke));
     height: calc(var(--total) * 1.5);
-    border-style: solid;
-    border-width: var(--border-width);
     border-radius: 0 0 50px 50px;
     border-top: none;
 }
@@ -69,8 +67,6 @@
     left: calc(var(--total) * -0.5 + var(--border-width));
     width: var(--font-stroke);
     height: calc(var(--font-stroke) * 0.6);
-    border-style: solid;
-    border-width: var(--border-width);
     border-radius: 0 0 50px 50px;
     border-top: none;
 }

@@ -50,6 +50,14 @@
     box-sizing: content-box;
 }
 
+.orange span,
+.blue span,
+.pink span,
+.violet span {
+    border-style: solid;
+    border-width: var(--border-width);
+}
+
 .orange {
     border-color: var(--orange-color);
 }
