@@ -16,49 +16,18 @@ svg {
     height: 11.25rem;
 }
 
-.fill {
-    background-color: var(--background-black);
+path.orange {
+    filter: drop-shadow(0 0 0.5rem var(--orange-color));
 }
 
-.orange {
-    box-shadow: 0 0 0.5rem var(--orange-color),
-        inset 0 0 0.5rem var(--orange-color);
-}
-
-.orange,
-.orange span {
-    border-color: var(--orange-color);
-}
-
-.blue {
-    box-shadow: 0 0 0.5rem var(--blue-color), inset 0 0 0.5rem var(--blue-color);
-}
-
-/* 
-svg.u path.blue {
+path.blue {
     filter: drop-shadow(0 0 0.5rem var(--blue-color));
-} */
-
-.blue,
-.blue span {
-    border-color: var(--blue-color);
 }
 
-.pink {
-    box-shadow: 0 0 0.5rem var(--pink-color), inset 0 0 0.5rem var(--pink-color);
+path.pink {
+    filter: drop-shadow(0 0 0.5rem var(--pink-color));
 }
 
-.pink,
-.pink span {
-    border-color: var(--pink-color);
-}
-
-.violet {
-    box-shadow: 0 0 0.5rem var(--violet-color),
-        inset 0 0 0.5rem var(--violet-color);
-}
-
-.violet,
-.violet span {
-    border-color: var(--violet-color);
+path.violet {
+    filter: drop-shadow(0 0 0.5rem var(--violet-color));
 }
