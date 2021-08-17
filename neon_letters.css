@@ -1,0 +1,59 @@
+:root {
+    --background-black: rgb(29, 29, 27);
+}
+
+.root {
+    background-color: var(--background-black);
+}
+
+.letter object {
+    width: 8.125rem;
+    height: 11.25rem;
+}
+
+.fill {
+    background-color: var(--background-black);
+}
+
+.orange {
+    box-shadow: 0 0 0.5rem var(--orange-color),
+        inset 0 0 0.5rem var(--orange-color);
+}
+
+.orange,
+.orange span {
+    border-color: var(--orange-color);
+}
+
+.blue {
+    box-shadow: 0 0 0.5rem var(--blue-color), inset 0 0 0.5rem var(--blue-color);
+}
+
+/* 
+svg.u path.blue {
+    filter: drop-shadow(0 0 0.5rem var(--blue-color));
+} */
+
+.blue,
+.blue span {
+    border-color: var(--blue-color);
+}
+
+.pink {
+    box-shadow: 0 0 0.5rem var(--pink-color), inset 0 0 0.5rem var(--pink-color);
+}
+
+.pink,
+.pink span {
+    border-color: var(--pink-color);
+}
+
+.violet {
+    box-shadow: 0 0 0.5rem var(--violet-color),
+        inset 0 0 0.5rem var(--violet-color);
+}
+
+.violet,
+.violet span {
+    border-color: var(--violet-color);
+}
