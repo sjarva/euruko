@@ -6,7 +6,12 @@
     background-color: var(--background-black);
 }
 
-.letter object {
+svg {
+    overflow: visible;
+}
+
+.letter,
+.letter svg {
     width: 8.125rem;
     height: 11.25rem;
 }
