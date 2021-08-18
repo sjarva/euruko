@@ -53,6 +53,36 @@ svg:hover path.violet {
     }
 }
 
+@keyframes pulsateBlue {
+    100% {
+        filter: drop-shadow(0 0 0.8rem var(--blue-color));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem var(--blue-color));
+    }
+}
+
+@keyframes pulsatePink {
+    100% {
+        filter: drop-shadow(0 0 0.8rem var(--pink-color));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem var(--pink-color));
+    }
+}
+
+@keyframes pulsateViolet {
+    100% {
+        filter: drop-shadow(0 0 0.8rem var(--violet-color));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem var(--violet-color));
+    }
+}
+
 @keyframes flickerOrange {
     78%,
     81%,
@@ -74,16 +104,6 @@ svg:hover path.violet {
     92% {
         stroke: #915911;
         filter: none;
-    }
-}
-
-@keyframes pulsateBlue {
-    100% {
-        filter: drop-shadow(0 0 0.8rem var(--blue-color));
-    }
-
-    0% {
-        filter: drop-shadow(0 0 0.5rem var(--blue-color));
     }
 }
 
@@ -111,16 +131,6 @@ svg:hover path.violet {
     }
 }
 
-@keyframes pulsatePink {
-    100% {
-        filter: drop-shadow(0 0 0.8rem var(--pink-color));
-    }
-
-    0% {
-        filter: drop-shadow(0 0 0.5rem var(--pink-color));
-    }
-}
-
 @keyframes flickerPink {
     78%,
     81%,
@@ -142,16 +152,6 @@ svg:hover path.violet {
     92% {
         stroke: #8c275d;
         filter: none;
-    }
-}
-
-@keyframes pulsateViolet {
-    100% {
-        filter: drop-shadow(0 0 0.8rem var(--violet-color));
-    }
-
-    0% {
-        filter: drop-shadow(0 0 0.5rem var(--violet-color));
     }
 }
 
@@ -183,24 +183,20 @@ svg:hover path.violet {
 
 path.orange {
     filter: drop-shadow(0 0 1.4rem var(--orange-color));
-    animation: pulsateOrange 1.5s ease-in-out infinite alternate,
-        flickerOrange 2s linear infinite;
+    animation: pulsateOrange 1.5s ease-in-out infinite alternate;
 }
 
 path.blue {
     filter: drop-shadow(0 0 1.4rem var(--blue-color));
-    animation: pulsateBlue 1.5s ease-in-out infinite alternate,
-        flickerBlue 2s linear infinite;
+    animation: pulsateBlue 1.5s ease-in-out infinite alternate;
 }
 
 path.pink {
     filter: drop-shadow(0 0 1.4rem var(--pink-color));
-    animation: pulsatePink 1.5s ease-in-out infinite alternate,
-        flickerPink 2s linear infinite;
+    animation: pulsatePink 1.5s ease-in-out infinite alternate;
 }
 
 path.violet {
     filter: drop-shadow(0 0 1.4rem var(--violet-color));
-    animation: pulsateViolet 1.5s ease-in-out infinite alternate,
-        flickerViolet 2s linear infinite;
+    animation: pulsateViolet 1.5s ease-in-out infinite alternate;
 }
