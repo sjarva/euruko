@@ -1,5 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="100%" height="100%" viewBox="0 0 960 225" version="1.1" xml:space="preserve" fill-rule="evenodd" clip-rule="evenodd">
 
+<style>
+
+    @keyframes pulsateOrange {
+    100% {
+        filter: drop-shadow(0 0 0.8rem rgb(243, 147, 26));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem rgb(243, 147, 26));
+    }
+}
+
+@keyframes pulsateBlue {
+    100% {
+        filter: drop-shadow(0 0 0.8rem #4b9bbe);
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem #4b9bbe);
+    }
+}
+
+@keyframes pulsatePink {
+    100% {
+        filter: drop-shadow(0 0 0.8rem #d74090);
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem #d74090);
+    }
+}
+
+@keyframes pulsateViolet {
+    100% {
+        filter: drop-shadow(0 0 0.8rem #d7aaff);
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem #d7aaff);
+    }
+}
+
+    path.orange {
+    filter: drop-shadow(0 0 1.4rem rgb(243, 147, 26));
+    animation: pulsateOrange 1.5s ease-in-out infinite alternate;
+}
+
+path.blue {
+    filter: drop-shadow(0 0 1.4rem #4b9bbe);
+    animation: pulsateBlue 1.5s ease-in-out infinite alternate;
+}
+
+path.pink {
+    filter: drop-shadow(0 0 1.4rem #d74090);
+    animation: pulsatePink 1.5s ease-in-out infinite alternate;
+}
+
+path.violet {
+    filter: drop-shadow(0 0 1.4rem #d7aaff);
+    animation: pulsateViolet 1.5s ease-in-out infinite alternate;
+}
+</style>
+
 <path class="violet" d="M100.017,28.524l32.635,-0c0.012,-0 0.023,-0 0.034,-0c9.7,-0 17.684,7.978 17.69,17.678c0,0 0,0 0,0c0,9.705 -7.985,17.69 -17.69,17.69c-0.011,0 -0.022,0 -0.034,0l-32.635,0c-9.7,-0.006 -17.678,-7.989 -17.678,-17.69c-0,-9.698 7.98,-17.678 17.678,-17.678Z" fill="none" fill-rule="nonzero" stroke="#ba9cdb" stroke-width="3.39px"/>
 <path class="blue" d="M100.017,161.108l32.635,-0c9.7,0.006 17.679,7.989 17.679,17.69c-0,9.698 -7.981,17.678 -17.679,17.678l-32.635,0c-9.698,0 -17.678,-7.98 -17.678,-17.678c-0,-9.701 7.978,-17.684 17.678,-17.69Z" fill="none" fill-rule="nonzero" stroke="#5ec2ee" stroke-width="3.39px"/>
 
