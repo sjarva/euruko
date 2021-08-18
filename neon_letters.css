@@ -16,18 +16,191 @@ svg {
     height: 11.25rem;
 }
 
+/* HOVER STYLES */
+svg:hover path.blue {
+    stroke: #2f6780;
+    filter: none;
+    animation: none;
+}
+
+svg:hover path.orange {
+    stroke: #915911;
+    filter: none;
+    animation: none;
+}
+
+svg:hover path.pink {
+    stroke: #8c275d;
+    filter: none;
+    animation: none;
+}
+
+svg:hover path.violet {
+    stroke: #643b87;
+    filter: none;
+    animation: none;
+}
+
+/* ANIMATION STYLES */
+
+@keyframes pulsateOrange {
+    100% {
+        filter: drop-shadow(0 0 0.8rem var(--orange-color));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem var(--orange-color));
+    }
+}
+
+@keyframes flickerOrange {
+    78%,
+    81%,
+    83%,
+    92.5% {
+        stroke: inherit;
+        filter: inherit;
+    }
+
+    79% {
+        stroke: #915911;
+    }
+
+    80% {
+        filter: none;
+    }
+
+    82%,
+    92% {
+        stroke: #915911;
+        filter: none;
+    }
+}
+
+@keyframes pulsateBlue {
+    100% {
+        filter: drop-shadow(0 0 0.8rem var(--blue-color));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem var(--blue-color));
+    }
+}
+
+@keyframes flickerBlue {
+    78%,
+    81%,
+    83%,
+    92.5% {
+        stroke: inherit;
+        filter: inherit;
+    }
+
+    79% {
+        stroke: #2f6780;
+    }
+
+    80% {
+        filter: none;
+    }
+
+    82%,
+    92% {
+        stroke: #2f6780;
+        filter: none;
+    }
+}
+
+@keyframes pulsatePink {
+    100% {
+        filter: drop-shadow(0 0 0.8rem var(--pink-color));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem var(--pink-color));
+    }
+}
+
+@keyframes flickerPink {
+    78%,
+    81%,
+    83%,
+    92.5% {
+        stroke: inherit;
+        filter: inherit;
+    }
+
+    79% {
+        stroke: #8c275d;
+    }
+
+    80% {
+        filter: none;
+    }
+
+    82%,
+    92% {
+        stroke: #8c275d;
+        filter: none;
+    }
+}
+
+@keyframes pulsateViolet {
+    100% {
+        filter: drop-shadow(0 0 0.8rem var(--violet-color));
+    }
+
+    0% {
+        filter: drop-shadow(0 0 0.5rem var(--violet-color));
+    }
+}
+
+@keyframes flickerViolet {
+    78%,
+    81%,
+    83%,
+    92.5% {
+        stroke: inherit;
+        filter: inherit;
+    }
+
+    79% {
+        stroke: #643b87;
+    }
+
+    80% {
+        filter: none;
+    }
+
+    82%,
+    92% {
+        stroke: #643b87;
+        filter: none;
+    }
+}
+
+/* Adding glow, glow animation and flicker animation to paths */
+
 path.orange {
-    filter: drop-shadow(0 0 0.5rem var(--orange-color));
+    filter: drop-shadow(0 0 1.4rem var(--orange-color));
+    animation: pulsateOrange 1.5s ease-in-out infinite alternate,
+        flickerOrange 2s linear infinite;
 }
 
 path.blue {
-    filter: drop-shadow(0 0 0.5rem var(--blue-color));
+    filter: drop-shadow(0 0 1.4rem var(--blue-color));
+    animation: pulsateBlue 1.5s ease-in-out infinite alternate,
+        flickerBlue 2s linear infinite;
 }
 
 path.pink {
-    filter: drop-shadow(0 0 0.5rem var(--pink-color));
+    filter: drop-shadow(0 0 1.4rem var(--pink-color));
+    animation: pulsatePink 1.5s ease-in-out infinite alternate,
+        flickerPink 2s linear infinite;
 }
 
 path.violet {
-    filter: drop-shadow(0 0 0.5rem var(--violet-color));
+    filter: drop-shadow(0 0 1.4rem var(--violet-color));
+    animation: pulsateViolet 1.5s ease-in-out infinite alternate,
+        flickerViolet 2s linear infinite;
 }
