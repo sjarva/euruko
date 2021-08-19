@@ -15,7 +15,7 @@
     background-color: var(--background-violet);
     width: 75rem;
     height: 50rem;
-    padding: 12.5rem;
+    padding: 10rem;
 }
 
 .column {
@@ -89,4 +89,16 @@
 
 .fill {
     background-color: var(--background-violet);
+}
+
+.white-text {
+    color: white;
+}
+
+.orange-text {
+    color: var(--orange-color);
+}
+
+.logo-svg {
+    margin: 8rem 0;
 }
